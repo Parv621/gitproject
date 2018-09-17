@@ -23,6 +23,13 @@ import pandas
 
 a = pandas.dataframe()
 
+ab = pd.dataframe()
+if ab.shape[0] == 0;
+	print("empty dataframe")
+	
+	print("XYZ")
+	
+
 data=pd.DataFrame.from_dict(data={'A':{0:1,1:2,2:3},
                              'B':{0:3,1:4,2:5},
                              'C':{0:7,1:8,2:9}
