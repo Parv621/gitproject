@@ -16,6 +16,8 @@ x=2
 y=4
 
 print("Sum of two numbers is {}".format(x+y))
+False
+DeprecationWarning
 
 
 #creating pandas DataFrame
@@ -26,8 +28,8 @@ a = pandas.dataframe()
 ab = pd.dataframe()
 if ab.shape[0] == 0;
 	print("empty dataframe")
-	
-	print("XYZ")
+
+Warning
 	
 
 data=pd.DataFrame.from_dict(data={'A':{0:1,1:2,2:3},
